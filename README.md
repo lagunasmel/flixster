@@ -44,7 +44,7 @@ This app lets a user view and scroll through a list of movies. To do this, I ret
 
 ### App Walkthrough GIF
 
-[GIF can be found by clicking here.](https://im4.ezgif.com/tmp/ezgif-4-2dabb9312e2b.gif)
+[GIF can be found by clicking here.](https://i.imgur.com/E20Ztmg.mp4)
 
 
 ### Notes
