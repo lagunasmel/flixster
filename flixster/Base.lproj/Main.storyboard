@@ -52,6 +52,7 @@
                                             <outlet property="posterView" destination="WxL-zE-O33" id="7wq-me-Ys6"/>
                                             <outlet property="synopsisLabel" destination="4mM-9S-yad" id="huV-y3-Hjx"/>
                                             <outlet property="titleLabel" destination="8nd-n9-nLg" id="zga-QY-Luh"/>
+                                            <segue destination="cKv-Se-OvM" kind="show" id="JNd-QW-MH5"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -68,6 +69,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kk0-ed-3IT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="100.00000000000001" y="83.705357142857139"/>
+        </scene>
+        <!--Movie Details View Controller-->
+        <scene sceneID="J7P-SH-KS7">
+            <objects>
+                <viewController id="cKv-Se-OvM" customClass="MovieDetailsViewController" customModule="flixster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SrJ-Xi-12d">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="EVH-do-A7a"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wYC-T3-wdq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RvL-6n-Jp0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="935" y="81"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="MwL-6Y-D0B">
